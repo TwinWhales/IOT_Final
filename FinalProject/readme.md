@@ -24,10 +24,8 @@ FinalProject/
 │ └ auth_dos_protection.c     # 매 회신등에 대한 모듈과 무거리 제어
 ├ mosq-topic-counter/
 │ └ auth_topic_bruteforce.c   # topic에 user/pass/timestamp 형식으로 replay 방지
-├ certs/                       # TLS 인증서 (ca.crt, mosquitto.crt, etc.)
-├ passwd                       # Mosquitto password file
-└ mosquitto_tls_only.conf     # Mosquitto 기본 TLS 설정 (8884)
-└ mosquitto_tls_plugins.conf  # plugin 포트에 적용 (8883)
+└ certs.crt                       # TLS 인증서 (ca.crt, mosquitto.crt, etc.)
+
 ```
 
 ---
