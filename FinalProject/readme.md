@@ -72,7 +72,7 @@ make
 # 설치 (default: /etc/mosquitto/plugins)
 sudo make install
 
-# mosquitto 실행
+# mosquitto 실행 (본인의 conf파일을 여기다 넣을 것)
 mosquitto -c mosquitto_tls_plugins.conf -v
 ```
 
