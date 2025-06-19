@@ -4,7 +4,7 @@
 
 개발 프로젝트 "MQTT 취약점 공격 및 방어 plugin 제작"은 Mosquitto 바이딩 위한 플랫폼에서 MQTT 코스 취약점을 사용자 등록, 통신, 통식 지시로 공격하고 간단한 플러그인으로 방어할 수 있도록 만든 **MQTT 프로토콜 공격/방어 시뮬레이션** 이다.
 
-## 도움 목적
+## 목적
 
 * MQTT TLS의 사용 경로에서 취약점을 공격
 * topic brute force / password brute force / buffer overflow 및 DoS 공격 결과 시험
@@ -64,6 +64,8 @@ FinalProject/
 ---
 
 ## 설치 방법
+
+mosquitto dir안에 plugin dir생성 후 해당 파일을 넣고 아래 명령어 실행
 
 ```bash
 # 모든 plugin 빌드
