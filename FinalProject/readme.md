@@ -19,12 +19,12 @@
 FinalProject/
 ├ Makefile
 ├ mosq-auth-lockout/
-│ └ auth_lockout_ip.c         # IP 기본 login 신뢰 오류 목록과 delay logic
+│ └ auth_lockout_ip.c        
 ├ mosq-dos-protecter/
-│ └ auth_dos_protection.c     # 매 회신등에 대한 모듈과 무거리 제어
+│ └ auth_dos_protection.c     
 ├ mosq-topic-counter/
-│ └ auth_topic_bruteforce.c   # topic에 user/pass/timestamp 형식으로 replay 방지
-└ certs.crt                       # TLS 인증서 (ca.crt, mosquitto.crt, etc.)
+│ └ auth_topic_bruteforce.c   
+└ certs.crt                      
 
 ```
 
